@@ -13,5 +13,11 @@
     "@testing-library/user-event": "^12.0.9",
     "jest": "^26.1.0",
     "prettier": "1.15.2"
+  },
+  "dependencies": {
+    "jest-environment-node": "^26.1.0"
+  },
+  "jest": {
+    "testEnvironment": "./__test-utils__/custom-jest-environment.js"
   }
 }
